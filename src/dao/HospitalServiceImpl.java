@@ -12,7 +12,7 @@ public class HospitalServiceImpl implements IHospitalService {
 	private Connection connection;
 	//Default constructor to connect database 
 	public HospitalServiceImpl(){
-		this.connection = DBConnection.getConnection();
+		connection = DBConnection.getConnection();
 	}
 	
 	@Override
